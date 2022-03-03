@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:id="@+id/Bag">
+            <ImageView
+                android:src="@drawable/bag"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/BagImage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vagabond sack"
+                android:textSize="18sp"
+                android:layout_below="@+id/BagImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameBag"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceBag"
+                android:text="$120"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameBag"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_toRightOf="@+id/Bag"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="20dp"
+            android:id="@+id/Glasses">
+            <ImageView
+                android:src="@drawable/sunglass"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/GlassesImage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stella     sunglasses"
+                android:textSize="18sp"
+                android:layout_below="@+id/GlassesImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameGlasses"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceGlasses"
+                android:text="$58"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameGlasses"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_margin="20dp"
+            android:id="@+id/Belt"
+            android:layout_below="@+id/Bag">
+            <ImageView
+                android:src="@drawable/belt"
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:id="@+id/BeltImage" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Whtney belt"
+                android:textSize="18sp"
+                android:layout_below="@+id/BeltImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameBelt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/priceBelt"
+                android:text="$35"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameBelt"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/Belt"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="20sp"
+            android:id="@+id/Thing">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/thing"
+                android:id="@+id/ThingImage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garden earring"
+                android:textSize="18sp"
+                android:layout_below="@+id/ThingImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameThing" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$98"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameThing"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/Glasses"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/Belt"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/Ring">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/ring"
+                android:id="@+id/RingImage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Garden strand"
+                android:textSize="18sp"
+                android:layout_below="@+id/RingImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameRing" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$98"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameRing"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:background="@drawable/design_item"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_below="@+id/Ring"
+            android:layout_marginTop="40dp"
+            android:layout_toRightOf="@+id/Belt"
+            android:layout_marginLeft="40dp"
+            android:id="@+id/Short">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:src="@drawable/sshort"
+                android:id="@+id/ShortImage"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Socks short"
+                android:textSize="18sp"
+                android:layout_below="@+id/ShortImage"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/nameShort" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$10"
+                android:textSize="14sp"
+                android:layout_below="@+id/nameShort"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="10dp" />
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Portrait"
+            android:layout_below="@+id/Short"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/buttonPortrait"
+            />
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:text="Landscape"
+            android:layout_below="@+id/Short"
+            android:layout_toRightOf="@+id/buttonPortrait"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="60dp"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/purple_700"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/buttonLandscape"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
